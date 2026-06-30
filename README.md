@@ -134,11 +134,14 @@ before publishing.
 
 **Author:** Charalampos Zisis, MSc Applied Data Science, Utrecht University.
 
-**Supervision:**
+**University Supervisors:**
 
-- G. Barkema, University Supervisor, Department of Computer Science, Utrecht University
-- M. Brinkhuis, University Supervisor, Department of Computer Science, Utrecht University
-- E. Geleijn, External Supervisor, Department of Rehabilitation Medicine, Amsterdam UMC
+- G. Barkema, Department of Computer Science, Utrecht University
+- M. Brinkhuis, Department of Computer Science, Utrecht University
+
+**Amsterdam UMC Supervisors:**
+
+- E. Geleijn, Department of Rehabilitation Medicine, Amsterdam UMC
 - Dr. Marike van der Leeden, Department of Rehabilitation Medicine, Amsterdam UMC
 
 **Data provided by:**
