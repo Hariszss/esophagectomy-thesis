@@ -84,6 +84,8 @@ Data sources referenced in the code:
 
 `supplementary/lung_analysis/` is exploratory side-work on a different registry (DLSA, Dutch
 Lung Surgery Audit, N≈1,200) — included to show methodology, not as a thesis deliverable.
+This work is still in progress and has not been fully validated, so it should be read as a
+methodology sample rather than a finished analysis.
 
 | Notebook | Purpose |
 |---|---|
