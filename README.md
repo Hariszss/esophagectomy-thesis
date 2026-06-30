@@ -134,21 +134,18 @@ before publishing.
 
 **Author:** Charalampos Zisis, MSc Applied Data Science, Utrecht University.
 
-**University Supervisors:**
+**Supervision:**
 
-- G. Barkema, Department of Computer Science, Utrecht University
-- M. Brinkhuis, Department of Computer Science, Utrecht University
+- G. Barkema, University Supervisor, Department of Computer Science, Utrecht University
+- M. Brinkhuis, University Supervisor, Department of Computer Science, Utrecht University
+- E. Geleijn, External Supervisor, Department of Rehabilitation Medicine, Amsterdam UMC
+- Dr. Marike van der Leeden, Department of Rehabilitation Medicine, Amsterdam UMC
 
-**External Supervisor:**
+**Data provided by:**
 
-- E. Geleijn, Amsterdam UMC *(clinical lead; project and risk assessment design)*
-
-**Clinical Collaborators:**
-
-- Marike van der Leeden, Amsterdam UMC *(analysis and clinical decisions)*
-- Hidde C.G. Overtoom, MD, PhD Candidate Upper GI Surgery, Department of Surgery, Amsterdam UMC — Cancer Center Amsterdam *(DUCA esophageal cancer database)*
-- Dr. M. van Dorp, MD PhD FUEBTS, Thoracic Surgeon, Department of Cardiothoracic Surgery, Amsterdam UMC — Cancer Center Amsterdam
-- Prof. Mark I. van Berge Henegouwen, MD, PhD, Professor of Upper GI Surgery, University of Amsterdam *(overall responsible for the DUCA database)*
+- Dr. M. van Dorp, MD PhD, Cardiothoracic Surgery, Amsterdam UMC
+- H.C.G. Overtoom, MD, Upper GI Surgery, Amsterdam UMC
+- Prof. M.I. van Berge Henegouwen, MD PhD, Upper GI Surgery, University of Amsterdam (overall responsible for the DUCA database)
 
 ## Acknowledgements
 
