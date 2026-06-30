@@ -89,7 +89,7 @@ Lung Surgery Audit, N≈1,200) — included to show methodology, not as a thesis
 |---|---|
 | `01_preprocessing` | Cleans the DLSA cohort, recodes sentinel values, derives BMI and a comorbidity index, and produces a leakage-free train/test split. |
 | `02_descriptive_statistics` | Cohort description, missingness/readiness audit, and univariate signal check against the complication outcome. |
-| `03_modeling` | LASSO/Random Forest/XGBoost comparison under 5-fold cross-validation with SHAP, evaluated on a held-out test set (best test AUC ≈ 0.77). |
+| `03_modeling` | LASSO/Random Forest/XGBoost comparison under 5-fold cross-validation with SHAP, evaluated on a held-out test set. |
 
 ## Methods
 
