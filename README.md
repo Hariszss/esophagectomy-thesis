@@ -18,7 +18,7 @@ predictive value on top of the registry-based model.
 
 The full thesis and the conference poster are in the `docs/` folder:
 
-- Thesis *(compiled PDF to be added — see note below)*
+- [Thesis](docs/thesis_report.pdf)
 - [Poster](docs/poster_presentation.pdf)
 
 ## Research question
