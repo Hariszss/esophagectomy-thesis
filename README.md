@@ -28,7 +28,8 @@ The Amsterdam UMC cohort of the Dutch Upper GI Cancer Audit (DUCA), a nationwide
 77% minimally invasive surgery.
 
 As a second source, functioning scores in 17 ICF domains (such as exercise tolerance, respiration and eating) were
-extracted from clinical notes by an NLP classifier and linked to the surgical cohort.
+extracted from clinical notes by an NLP classifier and linked to the surgical cohort. Each domain is scored 0 to 4,
+with higher scores meaning better functioning.
 
 All analysis ran inside a secure research environment (MyDRE). **No patient data is included in this repository.**
 
@@ -66,13 +67,17 @@ the operation, which no preoperative variable can capture.
 ![SHAP beeswarm](figures/shap_beeswarm.png)
 
 SHAP values on the Stage 4 Random Forest rank anastomosis location, operation duration, BMI, histology and ASA score as
-the strongest predictors. Longer operations, higher BMI and higher ASA scores push predicted risk up, consistent with
-surgical complexity and patient frailty.
+the strongest predictors. Each dot is a patient; dots to the right of zero push the predicted complication risk up.
+
+- **Cervical anastomosis** pushes predicted risk up, and an **intrathoracic anastomosis** pushes it down, in line with the
+  higher leak rates usually reported for cervical anastomoses.
+- **Longer operations, higher BMI, higher ASA scores and squamous cell histology** all increase predicted risk, consistent
+  with surgical complexity and patient frailty.
 
 The top predictor needs care, though. In this cohort the anastomosis location is almost fully determined by the surgical
-approach (minimally invasive surgery uses an intrathoracic anastomosis, open and hybrid approaches typically a cervical one).
-The model is therefore picking up **surgical approach and case mix, not a causal effect**: it does not mean that moving
-the anastomosis would change a patient's risk.
+approach: minimally invasive surgery (77% of cases) uses an intrathoracic anastomosis, while open and hybrid approaches
+typically use a cervical one. The model is therefore largely picking up **surgical approach and case mix, not a causal
+effect**, so it does not mean that changing the anastomosis site would change a patient's risk.
 
 ### 3. The probabilities need calibration before they reach a patient
 
@@ -102,6 +107,7 @@ qualitative judgement is hard to use for prediction, and that structured, quanti
 
 ![ICF change](figures/ICF_change.png)
 
+ICF scores run from 0 to 4, where **higher means better functioning**, so a positive change is an improvement.
 Comparing the last note before surgery with the most recent note within 180 days after, most physical domains worsened,
 with exercise tolerance declining the most (Δ = −0.64). Eating improved the most (Δ = +0.66), consistent with relief of
 the tumour blocking the esophagus. Eleven of 17 domains changed significantly (Wilcoxon signed-rank test).
