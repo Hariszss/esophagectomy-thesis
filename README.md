@@ -143,7 +143,7 @@ enough data to test their real value.
 | [`05_icf_prediction_value`](analysis/05_icf_prediction_value.ipynb) | Physiotherapist classification vs the model, selection bias, added value of ICF scores |
 
 `supplementary/lung_analysis/` contains exploratory side work on the Dutch Lung Surgery Audit (DLSA, N ≈ 1,200) using
-the same methodology. It is not part of the thesis and is still in progress.
+the same methodology. It is an exploratory side analysis and not part of the thesis.
 
 The notebooks document every analysis step and modelling choice, but they cannot be run end to end without access to the
 DUCA registry through the appropriate governance route. Outputs were cleared before publishing. Developed with Python 3.10
